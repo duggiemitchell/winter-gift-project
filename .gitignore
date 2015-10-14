@@ -1,0 +1,2 @@
+# ignore configuration directories for Intelij/PHPStorm
+.idea

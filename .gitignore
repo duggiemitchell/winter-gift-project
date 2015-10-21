@@ -1,2 +1,10 @@
 # ignore configuration directories for Intelij/PHPStorm
 .idea
+
+# ignore laravel environment variables such as passwords
+.env
+# ignore directory for vagrant internal housekeeping
+.vagrant
+
+# ignore autocomplete settings for IDEse
+.phpstorm.meta.php

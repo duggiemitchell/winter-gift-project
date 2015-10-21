@@ -1,3 +1,28 @@
+# CPMD Winter Gift Project
+
+## Developer Environment
+
+This repo has the ability to generate a working development environment if you have not or care not to set up your own. To start 
+
+- Install VirtualBox
+- Install Vagrant
+
+If you have VMware installed, edit the Homestead.yaml file to set provider from
+
+- virtualbox
+to
+- vmware_fusion or vmware_workstation
+
+Tell the user to generate an SSH key if they don't have one already
+
+Tell the user to edit their hosts file
+
+Run vagrant up
+
+When their done working for the day
+
+Run vagrant halt
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)

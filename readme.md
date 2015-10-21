@@ -4,13 +4,15 @@
 
 This repo has the ability to generate a working development environment if you have not or care not to set up your own. To start 
 
-- Install VirtualBox
-- Install Vagrant
+- Install [VirtualBox](http://virtualbox.org/)
+- Install [Vagrant](http://vagrantup.com)
 
 If you have VMware installed, edit the Homestead.yaml file to set provider from
 
 - virtualbox
+
 to
+
 - vmware_fusion or vmware_workstation
 
 Tell the user to generate an SSH key if they don't have one already
